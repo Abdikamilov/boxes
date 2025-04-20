@@ -1,0 +1,25 @@
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 968px) and (min-width: 880px){
+    .box {
+        background-color: green;
+        color: red;
+    }
+}
+
+@media (max-width: 880px) and (min-width: 660px){
+    .box {
+        background-color: blue;
+        color: black;
+    }
+}
+
+@media (max-width: 660px) and (min-width: 400px){
+    .box {
+        background-color: blueviolet;
+        color: green;
+    }
+}
